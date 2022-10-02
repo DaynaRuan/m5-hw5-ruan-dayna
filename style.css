@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+}
+
+
+body {
+    background-color: #f2eadf;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%238b7b67' fill-opacity='0.44' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+header{
+    background:white;
+    padding: 20px 0;
+    border-bottom: 100px black
+}
+
+
+h1{
+    display: inline-block;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+nav{
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+
+}
+
+nav a {
+   margin: 10px 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #25211c;
+    font-size: small;
+    font-weight: bold;
+    color: oldlace;
+    padding: 10px 20px;
+}
+
+main {
+        background-color: oldlace;
+        border: 12px;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        width: auto;
+        max-width: 60%;
+        float: left;
+        padding: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+
+}
+ main img {
+     float: left;
+     margin-right: 30px;
+     margin-bottom: 20px;
+ }
+
+ aside {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    background-color: oldlace;
+    margin-left: 10px;
+    display: inline-block;
+    border: 12px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: auto;
+    max-width: 60%;
+ }
+
+h2 {
+    text-decoration-color: black; 
+    margin-bottom: 20px; 
+}
+
+ p {
+    font-size: small;
+    line-height: 20px;
+    margin-bottom: 10px; /* between paragraphs */
+    
+ }
+
+ footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color:#25211c;
+    color: oldlace;
+    padding: 10px
+ }
